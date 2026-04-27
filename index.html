@@ -9,12 +9,21 @@
 
 </head>
 <body>
-     <div class="container-lg shadow rounded-3 position-absolute top-50 start-50 translate-middle p-5 pb-4">
+     <div class="container h-100 d-flex align-items-center justify-content-center">
         <nav>
-
-            <p class="p-1 mb-3 h2 d-flex justify-content-center">Login</p>
-        <p class="p-2 mb-5 h6 d-flex justify-content-center lead">Preencha os dados para realizar o login.</p>
-
+   
+<form>  <h1 class="h3 mb-3 fw-normal">Login</h1> 
+    <div class="form-floating"> <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"> 
+        <label for="floatingInput">Email </label> 
+    </div> 
+    <div class="form-floating"> 
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password"> 
+        <label for="floatingPassword">Senha</label> </div> <div class="form-check text-start my-3"> 
+            <input class="form-check-input" type="checkbox" value="remember-me" id="checkDefault"> 
+            <label class="form-check-label" for="checkDefault"> Lembrar de mim
+    </label> </div> 
+        <button class="btn btn-primary w-100 py-2" type="submit">Entrar</button> 
+</form>
      </div>
 
         </nav>
