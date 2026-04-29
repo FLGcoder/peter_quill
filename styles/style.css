@@ -7,6 +7,40 @@ body{
     background-size: cover;
 }
 
+#body-home .card {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+#body-home .card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+#body-home .btn-primary {
+    background-color: #6da7d8;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+    box-shadow: 0 0 5px #6da7d8,
+                0 0 10px #6da7d8,
+                0 0 20px #6da7d8;
+
+    transition: 0.3s;
+}
+
+#body-home .btn-primary:hover {
+    background-color: #6da7d8;
+    transform: scale(1.1);
+
+    box-shadow: 0 0 10px #6da7d8,
+                0 0 20px #6da7d8,
+                0 0 40px #6da7d8;
+}
+
 #body-login{
     background: url("../assets/images/peter_q.jpg") no-repeat center center fixed;
     background-size: cover;
