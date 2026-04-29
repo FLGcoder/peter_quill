@@ -2,6 +2,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* ======================= Home ======================= */
 #body-home{
     background: url("../assets/images/bg.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -40,6 +41,17 @@ body{
                 0 0 20px #6da7d8,
                 0 0 40px #6da7d8;
 }
+
+#body-home .navbar {
+    background: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px);
+}
+
+#body-home .navbar a {
+    color: white !important;
+}
+
+/* ======================= Login ======================= */
 
 #body-login{
     background: url("../assets/images/peter_q.jpg") no-repeat center center fixed;
@@ -95,6 +107,8 @@ body{
     transform: scale(1.05);
     background: linear-gradient(45deg, #ff0000, #ff7b00);
 }
+
+/* ======================= ---- ======================= */
 
 section{
     background-image: url("assets/images/fundo.webp");
