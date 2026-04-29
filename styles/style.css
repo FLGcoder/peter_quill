@@ -73,6 +73,29 @@ body{
     width: 180px;
 }
 
+#body-login .custom-input {
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    color: white;
+}
+
+#body-login .form-floating label {
+    color: #ddd;
+}
+
+#body-login .btn-login{
+    background: linear-gradient(45deg, #ff7b00, #ff0000);
+    border: none;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+} 
+
+#body-login .btn-login:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #ff0000, #ff7b00);
+}
+
 section{
     background-image: url("assets/images/fundo.webp");
 }
