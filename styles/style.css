@@ -53,6 +53,35 @@ body{
     color: white !important;
 }
 
+/* ======================= Apresentação ======================= */
+
+#body-presentation .navbar {
+    background: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px);
+    position: relative;
+    z-index: 1000;
+}
+
+#body-presentation .navbar a {
+    color: white !important;
+}
+
+#body-presentation {
+    background: url("../assets/images/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#body-presentation .personagem-img {
+    filter: drop-shadow(0 0 20px rgba(0, 255, 255, 0.5));
+}
+
+#body-presentation .text-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 25px;
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+}
+
 /* ======================= Login ======================= */
 
 #body-login{
